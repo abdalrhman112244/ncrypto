@@ -100,7 +100,6 @@
     display: flex;
     gap: 1rem;
     align-items: center;
-    justify-content: center;
     height: 56px;
     text-decoration: none;
     transition: background-color 0.2s ease-in-out;
@@ -223,6 +222,7 @@
         display: none;
     }
     .AB-sidebar-links li a {
+        justify-content: center;
         padding: 0px;
     }
     .AB-sidebar-links h5{
