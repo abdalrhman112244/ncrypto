@@ -11,12 +11,15 @@ import bottomArrow from '../Images/bottomArrow.svg'
 const ProfileForm = () => {
 
 const [countries, setCountries] = useState([])
+const [filterData, setFilterData] = useState([])
 const [selectedCountry, setSelectedCountry] = useState();
+const [active, setActive] = useState(false)
 
 const getCountries = async() => {
   const response = await fetch("https://restcountries.com/v3.1/all")
   const data= await response.json()
   setCountries(data)
+  setFilterData(data)
 }
 
 useEffect(() => {
@@ -31,8 +34,13 @@ console.log(countries)
       return true;
     }
     return false;
-  });
+  })
 
+  //filter data for search box
+  const handleFilter = (value) => {
+    const res = filterData.filter(f => f.name.common.toLowerCase().includes(value))
+    setCountries(res)
+  }
   return (
     <div className='bh-profileForm'>
         <p className='formTitle'>Personal Information</p> 
@@ -83,12 +91,14 @@ console.log(countries)
                <span></span>
                <select className='selectBox' value={selectedCountry}
                        onChange={(e) => setSelectedCountry(e.target.value)}>
-                  <option hidden>Location</option>
-                  {
-                    countries.map((item,index) => (
-                      <option key={index} value={item.name.common}>{item.name.common}</option>
-                    ))
-                  }
+      
+                    <option hidden>Location</option>
+                      {
+                        countries.map((item,index) => (
+                           <option key={index} value={item.name.common}>{item.name.common}</option>
+                        ))
+                      }
+             
                </select>
                <div className="selectIcon">
                      <img src={bottomArrow} alt="bottomArrow" />
@@ -96,23 +106,41 @@ console.log(countries)
              </div> {/*End bh-selectLocation */}
 
              <div className='bh-selectPhone'>
-                 <img 
-                     src={searchSelectedCountry ? searchSelectedCountry.flags.png : 'https://flagcdn.com/w320/sy.png'}
-                     alt="countryFalg"
-                     className='countryFalg'/>
+                <div className="selected-option" onClick={() => setActive(!active)}>
+                    <div>
+                      <img 
+                         src={searchSelectedCountry ?
+                             searchSelectedCountry.flags.png 
+                            : 
+                             'https://flagcdn.com/w320/sy.png'}
+                         alt="countryFalg"
+                         className='countryFalg'/>
 
-                 <p className='phoneNumPara'>
+                         <img src={bottomArrow} alt="bottomArrow" />
+                     </div>
+                    <input type="tel" name="tel" placeholder="Phone Number" />
+                </div> {/* End selected-option */}
+                <div className={`options ${active ? "active" : ""}`}>
+                  <input type='text' 
+                         className='searchBox' 
+                         placeholder='search country' 
+                         onChange={e => handleFilter(e.target.value)} />
+           
+                  <ol>
                     {
-                      searchSelectedCountry ? searchSelectedCountry.idd.root + searchSelectedCountry.idd.suffixes : "+963"
+                     countries.map((country,index) => (
+                        <li className='option' key={index}>
+                          <div className="leftSecOption">
+                            <img src={country.flags.png} alt="flag" className='flagImg'/>
+                            <span className='countryName'>{country.name.common}</span>
+                          </div> {/* End leftSecOption */}
+                          <span className='internationalNum'>{country.idd.root + country.idd.suffixes}</span>
+                        </li>
+                     ))
                     }
-                 </p>
+                 </ol>
                  
-                 <input
-                        type="tel"
-                        placeholder="Phone Number"
-                        className='phoneNumInput'
-                        />
-                 
+                </div> {/* End options */}
              </div> {/*End bh-selectPhone */}
 
           </div> {/*End contactWrapper */}

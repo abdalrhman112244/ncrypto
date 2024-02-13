@@ -57,7 +57,15 @@
     overflow-x: hidden;
     overflow-y: auto;
 }
-
+.bh-allUnits .allUnitsWrapper::-webkit-scrollbar {
+    width: 0.6rem;
+}
+.bh-allUnits .allUnitsWrapper::-webkit-scrollbar-thumb {
+    width: 0.4rem;
+    height: 3rem;
+    background-color: #ccc;
+    border-radius: .4rem;
+}
 .bh-allUnits .loadBtnContainer {
     padding-top: 2rem;
 }
