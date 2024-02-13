@@ -1,11 +1,11 @@
 import "./Navbar.css";
-import img1 from "./../../assets/img/Mega-Menue.svg"
-import img2 from "./../../assets/img/Wallet-Icon.svg";
-import img3 from "./../../assets/img/Settings-Icon.svg"
-import img4 from "./../../assets/img/Notification-Icon.svg"
-import img5 from "./../../assets/img/search-normal.svg"
-import img6 from "./../../assets/img/UK.png"
-import img7 from "./../../assets/img/Arrow-Icon.svg"
+import img1 from "./../../assets/img-SN/Mega-Menue.svg"
+import img2 from "./../../assets/img-SN/Wallet-Icon.svg";
+import img3 from "./../../assets/img-SN/Settings-Icon.svg"
+import img4 from "./../../assets/img-SN/Notification-Icon.svg"
+import img5 from "./../../assets/img-SN/search-normal.svg"
+import img6 from "./../../assets/img-SN/UK.png"
+import img7 from "./../../assets/img-SN/Arrow-Icon.svg"
 const Nanbar = () => {
     return (
         <nav className="AB-navbar">

@@ -1,19 +1,19 @@
 import { Link, NavLink } from "react-router-dom";
 import "./Sidebar.css";
-import img1 from "./../../assets/img/Group 8341.svg";
-import img2 from "./../../assets/img/Avatar-Image.png";
-import img3 from "./../../assets/img/Frame.svg"
-import img4 from "./../../assets/img/Dashboard-Icon.svg"
-import img5 from "./../../assets/img/Exchange-Icon.svg"
-import img6 from "./../../assets/img/Price-Icon.svg"
-import img7 from "./../../assets/img/Wallet-Icon.svg"
-import img8 from "./../../assets/img/Market-Icon.svg"
-import img9 from "./../../assets/img/Transaction-Icon.svg"
-import img10 from "./../../assets/img/Settings-Icon.svg"
-import img11 from "./../../assets/img/News-Icon.svg"
-import img12 from "./../../assets/img/Chat-Icon.svg"
-import img13 from "./../../assets/img/Dark-Icon.svg"
-import img14 from "./../../assets/img/Light-Icon.svg"
+import img1 from "./../../assets/img-SN/Group 8341.svg";
+import img2 from "./../../assets/img-SN/Avatar-Image.png";
+import img3 from "./../../assets/img-SN/Frame.svg"
+import img4 from "./../../assets/img-SN/Dashboard-Icon.svg"
+import img5 from "./../../assets/img-SN/Exchange-Icon.svg"
+import img6 from "./../../assets/img-SN/Price-Icon.svg"
+import img7 from "./../../assets/img-SN/Wallet-Icon.svg"
+import img8 from "./../../assets/img-SN/Market-Icon.svg"
+import img9 from "./../../assets/img-SN/Transaction-Icon.svg"
+import img10 from "./../../assets/img-SN/Settings-Icon.svg"
+import img11 from "./../../assets/img-SN/News-Icon.svg"
+import img12 from "./../../assets/img-SN/Chat-Icon.svg"
+import img13 from "./../../assets/img-SN/Dark-Icon.svg"
+import img14 from "./../../assets/img-SN/Light-Icon.svg"
 import React, { useState } from "react";
 
 const Sidebar = () => {
