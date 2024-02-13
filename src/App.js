@@ -20,6 +20,7 @@ import Verification from './components/Settings/Verification/Verification.jsx'
 import UserProfile from './components/Settings/UserProfile/UserProfile.jsx'
 import ConversationPart from './components/Chats/ConversationPart/ConversationPart.jsx';
 
+
 function App() {
   return (
     <div className="App">
@@ -55,7 +56,6 @@ function App() {
 
         </Route>
       </Routes>
-
     </div>
   );
 }
