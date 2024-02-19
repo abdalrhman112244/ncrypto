@@ -36,7 +36,9 @@ const Sidebar = () => {
             </div>
             
              <div className="AB-perconal-ph">
-                <img src={img2} alt="" className="AB-perconal" />
+                <NavLink to='/userProfile'>
+                  <img src={img2} alt="" className="AB-perconal" />
+                </NavLink>
                 <h3 className="AB-hide">Erfan Amade</h3>
                 <div className="AB-span-img-SN">
                     <span className="AB-hide">verified</span>

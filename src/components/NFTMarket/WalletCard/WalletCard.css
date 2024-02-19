@@ -1,0 +1,37 @@
+
+.Wallet-card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 247px;
+
+}
+.Wallet-card p ,.Wallet-card h6{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 5px;
+
+
+}
+.Wallet-card p{
+    color: #C3CDDB;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 10px;
+
+
+}
+.Wallet-card img{
+    width: 45px;
+    height: 45px;   
+
+}
