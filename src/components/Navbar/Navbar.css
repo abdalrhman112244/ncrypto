@@ -16,6 +16,16 @@
   border: none;
   cursor: pointer;
   background: none;
+  position: relative;
+}
+.AB-button-menu.menu-active::before{
+  content: " ";
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #161D26 transparent;
+  position: absolute;
+  bottom: -108%;
+  z-index: 999999;
 }
 #AB-searchInput {
   color: white;
@@ -78,4 +88,9 @@ input[type="image"] {
   outline: none;
   border: none;
   cursor: pointer;
+}
+@media screen and (max-width: 1115px){
+  .AB-button-menu::before{
+    bottom: -80% !important;
+  }
 }

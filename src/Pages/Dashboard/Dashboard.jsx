@@ -1,8 +1,11 @@
 import React from 'react'
+import Assets from "./../../components/ManScreen/Assets/Assets"
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div>
+      <Assets />
+    </div>
   )
 }
 
