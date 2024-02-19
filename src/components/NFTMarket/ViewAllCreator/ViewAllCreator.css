@@ -1,0 +1,18 @@
+
+.SM-ViewAllCreator{
+    padding: 0rem 3.33rem 0rem 1.62rem;
+    display: flex;
+    justify-content: space-between;
+}
+.SM-ViewAllCreator .see-more{
+    display: flex;
+    gap: 0.62rem;
+}
+.SM-ViewAllCreator p,.SM-ViewAllCreator .see-more p{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
