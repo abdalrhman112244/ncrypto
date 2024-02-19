@@ -1,0 +1,70 @@
+.SM-card{
+    width: 17.8125rem;
+
+    flex-shrink: 0;
+}
+
+.SM-card-img{
+    padding: 1rem 1.19rem 0rem 0.88rem;
+    flex-shrink: 0;
+    background: #161D26;
+    display: flex;
+    gap: 0.94rem;
+}
+.SM-card-img .SM-card-position{
+    width: 74px;
+    position: relative;
+}
+.SM-card-img .SM-card-position .img-1{
+width: 100%;
+
+}
+.SM-card-img .SM-card-position .img-2{
+    position: absolute;
+    top: 3.44rem;
+    left: 1.03rem;
+}
+
+.SM-card .SM-titles{
+display: flex;
+padding-right: 1.19rem;
+padding-top: 2.44rem;
+padding-bottom: 2.12rem;
+padding-left: 0.66rem;
+gap: 4.22rem;
+}
+.SM-card-title{
+    display: flex;
+    flex-direction: column;
+    gap: 0.06rem;
+}
+.SM-span-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    color: #C2C2C2;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.SM-titles .SM-card-title P{
+    color: var(--Second-Text, #A4A8AB);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.SM-titles .follow{
+    color: #0caf60;
+    flex-shrink: 0;
+    padding: 0.37rem 0.88rem 0.44rem 0.88rem;
+    border: solid 1px #0caf60 !important;
+    border-radius: 1.75rem !important;
+    background: #161D26;;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

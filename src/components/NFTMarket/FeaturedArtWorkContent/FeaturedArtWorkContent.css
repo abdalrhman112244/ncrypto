@@ -1,0 +1,101 @@
+
+.SM-image-content{
+    position: relative;
+    width: 251px;
+    height: 218px;
+    flex-shrink: 0;
+    border-radius: 1.875rem;
+}
+.SM-image-content .SM-image-content{
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.SM-image-content .SM-position-ETH{
+    width: 6.6875rem;
+    height: 2.125rem;
+    background-image: url(../../NFTMarket/img/BG-ETH.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0.88rem;
+    top: 10.56rem;
+    flex-shrink: 0;
+    display: flex;
+    padding: 0.19rem 0.63rem 0.25rem 0.28rem;
+    border-radius: 1rem;
+}
+.SM-image-content .SM-position-ETH p{
+    padding: 0.18rem 0rem 0.19rem 0rem ;
+    color: #FAFCFF;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.SM-image-content  img{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    position: absolute;
+    left: 11.44rem;
+    top: 12.37rem;
+}
+
+/*
+.SM-Artwork-Title{
+    display: flex;
+    flex-direction: column;
+    padding: 0.69rem 10.44rem 0rem 2rem;
+}
+.SM-Artwork-Title .SM-PlaceBid{
+    display: flex;
+    gap: 0.93rem;
+}
+.SM-Artwork-Title .SM-span-img {
+        display: flex;
+        gap: 0.31rem;
+        color: var(--White, #FFF);
+        font-family: Poppins;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    
+}
+.SM-Artwork-Title .SM-hide{
+    color: var(--White, #FFF);
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.SM-Artwork-Title .SM-PlaceBid .SM-PlaceBid-img{
+    width: 3.125rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    border: 1px solid #303A46;
+    background: #161D26;
+    padding: 0.87rem 0.76rem 0.75rem 0.87rem;
+}
+.SM-Artwork-Title .SM-PlaceBid .SM-PlaceBid-button{
+    width: 10.625rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: #0CAF60;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 171%;
+    padding: 0.75rem 1.44rem 0.88rem 1.5rem;
+}
+*/

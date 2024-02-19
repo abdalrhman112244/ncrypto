@@ -1,0 +1,94 @@
+
+.SM-container-wallet {
+    background: #161D26;
+    padding-left: 0.5rem;
+    padding-right: 2rem;
+
+
+}
+
+.SM-container-wallet .SM-part-one-wallet{
+display: flex;
+flex-direction: column;
+padding-left: 1rem;
+padding-top: 25px;
+
+
+}
+
+.SM-container-wallet .SM-part-one-wallet .SM-start-wallet{
+    display: flex;
+}
+.SM-container-wallet .SM-part-one-wallet .SM-start-wallet p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.SM-part-one-wallet .SM-paths-wallet{
+    display: flex;
+    gap: 5px;
+    padding: 10px 0px 10px 5px;
+}
+.SM-container-wallet .SM-part-one-wallet .SM-paths-wallet p,.SM-part-two-wallet .SM-Connect-wallet p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #A4A8AB;
+}
+.SM-container-wallet .SM-part-one-wallet .SM-paths-wallet img{
+    width: 14px;
+    height: 14px;
+
+}
+.SM-white{
+    color:#FFFFFF !important;
+}
+
+.SM-part-two-wallet{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+.SM-container-wallet .SM-part-two-wallet .SM-Connect-wallet{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0rem 5rem 0rem;
+    position: relative;
+}
+.SM-part-two-wallet .SM-Connect-wallet p{
+font-size: 16px;
+text-align: left;
+padding-top: 10px;
+}
+.SM-part-two-wallet .SM-Connect-wallet .SM-sizeXL{
+font-family: Poppins;
+font-size: 30px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.SM-part-two-wallet .SM-Connect-wallet img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+}
+.SM-part-two-wallet .SM-items-wallet{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-top: 4rem;
+
+}

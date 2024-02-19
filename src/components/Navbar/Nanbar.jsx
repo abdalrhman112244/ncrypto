@@ -11,7 +11,6 @@ import Language from '../Popup/Language/Language';
 import PopupSettings from "../Popup/PopupSettings/PopupSettings";
 import AllNotifications from "../Popup/NotificationPopup/AllNotifications/AllNotifications";
 import AllCurrencies from "../Popup/CurrencyPopup/AllCurrencies/AllCurrencies";
-
 const Nanbar = () => {
 
     const [clickedLanguage, setClickedLanguage] = useState(false)

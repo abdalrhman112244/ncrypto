@@ -1,0 +1,44 @@
+.Card-popular{
+    width: 17.9375rem;
+    flex-shrink: 0;
+    background-color:  #161D26;
+    padding: 1.5rem 1.12rem 1.31rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.63rem;
+    padding: 1.5rem 1.13rem 1.31rem 1.25rem;
+}
+
+.Card-popular .SM-titles-popular .SM-profile-popular{
+    display: flex;
+    gap: 0.69rem;
+    padding-right: 4.62rem;
+
+}
+.Card-popular .SM-titles-popular .SM-profile-popular .SM-title-popular{
+display: flex;
+flex-direction: column;
+color: var(--White, #FFF);
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.00625rem;
+}
+.Card-popular .SM-img-Popular .SM-big-img{
+    display: flex;
+    gap: 0.94rem;
+
+}
+.Card-popular .SM-img-Popular .SM-big-img .SM-three-img{
+    display: flex;
+    flex-direction: column;
+    gap: 0.94rem;
+}
+.SM-big-img .SM-three-img .SM-two-img{
+    display: flex;
+    gap: 0.5rem;
+}
+.SM-border-radius{
+    border-radius: 0.9375rem;
+}
