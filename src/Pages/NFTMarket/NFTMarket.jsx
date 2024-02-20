@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 const NFTMarket = () => {
   return (
-    <div>NFTMarket</div>
-  )
-}
+      <div>
+            NFTMarket
+        </div>
+  );
+};
 
-export default NFTMarket
+export default NFTMarket;
+ 
